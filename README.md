@@ -1,4 +1,4 @@
-# Naveenkumar P – Data Analyst Portfolio
+# Naveenkumar P – Data Analyst
 
 ## About Me
 I am a Mechanical Engineering graduate from PSG College of Technology with hands-on experience in SQL and Power BI. I have completed a Data Analyst course from DataMites and am currently doing a virtual internship at Rubixe.
