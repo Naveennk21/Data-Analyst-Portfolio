@@ -19,5 +19,6 @@ I am passionate about analyzing data, finding patterns, and converting raw data 
 Each project includes problem statements, SQL queries, dashboards, and insights.
 
 ## Contact
-- LinkedIn: www.linkedin.com/in/naveenpalanisamy21
-- GitHub: https://github.com/yourusername
+- GitHub: https://github.com/Naveennk21
+- LinkedIn: https://www.linkedin.com/in/naveenpalanisamy21
+- Email: naveee76@gmail.com
