@@ -1,0 +1,39 @@
+1.Python Downland: https://www.python.org/downloads/
+
+Download Python for Windows
+During installation → Tick “Add Python to PATH”
+Click Install
+
+To check:
+Open Command Prompt → type: python --version
+
+2.Install VS Code: https://code.visualstudio.com/
+
+Download and install
+Open VS Code
+
+3.Install Python Extension:
+
+In VS Code Click Extensions (left side icon)
+Search: Python
+Install the one by Microsoft
+
+4.Run Your First Python Program:
+
+Click File → New File
+Save as: test.py
+Type: print("Hello Naveen!")
+
+5.Open VS Code Terminal:
+
+Click Terminal
+Click New Terminal
+Copy and Paste this: pip install requests beautifulsoup4 lxml selenium pandas
+
+6.Test If Installed Properly:
+
+Create a file test.py and write:
+import requests
+from bs4 import BeautifulSoup
+import pandas
+print("All libraries installed successfully!")
