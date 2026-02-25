@@ -37,3 +37,49 @@ import requests
 from bs4 import BeautifulSoup
 import pandas
 print("All libraries installed successfully!")
+
+7.Quick Test
+
+import requests
+
+url = "https://osgtool.com/wp-json/wp/v2/product/52503002"
+
+response = requests.get(url)
+print(response.text)
+
+
+8.Test Case: Create new file: api_test.py
+
+import requests
+import json
+
+url = "https://osgtool.com/wp-json/wp/v2/product/52503002"
+
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+response = requests.get(url, headers=headers)
+
+data = response.json()
+
+print("Product Title:", data.get("title", {}).get("rendered"))
+print("Product ID:", data.get("id"))
+print("Product Content:", data.get("content", {}).get("rendered"))
+
+9.Next Level Scrappring
+
+from bs4 import BeautifulSoup
+
+html_content = data["content"]["rendered"]
+
+soup = BeautifulSoup(html_content, "lxml")
+
+rows = soup.find_all("tr")
+
+for row in rows:
+    cols = row.find_all("td")
+    if len(cols) == 2:
+        key = cols[0].get_text(strip=True)
+        value = cols[1].get_text(strip=True)
+        print(key, ":", value)
