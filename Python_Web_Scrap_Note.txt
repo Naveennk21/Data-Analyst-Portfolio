@@ -1,34 +1,77 @@
-1.Python Downland: https://www.python.org/downloads/
+1.Python Downland: Version 3.11.1 Downland Link (https://www.python.org/ftp/python/3.11.1/python-3.11.1-amd64.exe)
 
-Download Python for Windows
-During installation → Tick “Add Python to PATH”
-Click Install
+File saving location → C:\Users\navee\AppData\Local\Python
 
-To check:
-Open Command Prompt → type: python --version
+i. Download Python for Windows
+ii. During installation → Tick “Add Python to PATH”
+iii. Click Install
+iv. To check: Open Command Prompt → type: python --version
+
+If latest version is available, do this below method to remove and reinstall the Version_3.11.1
+
+🖥️ Method 1: Uninstall from Control Panel (Easiest Way)
+i.Press Windows + R
+ii. Type: appwiz.cpl, Press Enter
+iii. Find Python 3.14 in the list
+iv. Right-click → Click Uninstall
+
+🖥️ Method 2: Uninstall from Settings
+I. Press Windows + I
+ii. Go to Apps
+iii. Click Installed Apps
+iv. Search: Python 3.14
+v. Click → Uninstall
+vi. After Uninstall check if it is removed by using command prompt (Important)
+Vii. Open Command Prompt and type: python --version
 
 2.Install VS Code: https://code.visualstudio.com/
-
-Download and install
-Open VS Code
+I. Download and install
+ii. Open VS Code
 
 3.Install Python Extension:
-
-In VS Code Click Extensions (left side icon)
-Search: Python
-Install the one by Microsoft
+i. In VS Code Click Extensions (left side icon)
+ii. Search: Python
+iii. Install the one by Microsoft
 
 4.Run Your First Python Program:
+i. Click File → New File
+ii. Save as: test.py
+iii. Type: print("Hello Naveen!")
 
-Click File → New File
-Save as: test.py
-Type: print("Hello Naveen!")
+5.Create Clean Environment (Very Important)
 
-5.Open VS Code Terminal:
+i. Inside your project folder: C:\Users\navee>
+Run:
+→ py -3.11 -m venv msc_env
+→ msc_env\Scripts\activate
 
-Click Terminal
-Click New Terminal
-Copy and Paste this: pip install requests beautifulsoup4 lxml selenium pandas
+ii. Now your terminal should show: (msc_env) PS C:\Users\navee>
+iii. If not shows like that, then do the below method:
+
+→FIX POWERHELL EXECUTION POLICY (Safe Method)
+i. Open PowerShell as Administrator
+ii. Then run: Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+iii. It will ask: Do you want to change the execution policy?
+iv. Type: Y and press Enter
+v. Now activate again: Close PowerShell.
+vi. Open new PowerShell (normal, not admin).
+vii. Then run: msc_env\Scripts\activate
+viii. Now it should show: (msc_env) PS C:\Users\navee> (That means virtual environment is active)
+
+→If You Don't Want to Change Policy (Alternative Way)
+You can activate using: msc_env\Scripts\activate.bat
+OR
+Use CMD instead of PowerShell.
+
+6.Open VS Code Terminal:
+i. Click Terminal
+ii. Click New Terminal
+iii. Install the below libraries and update it:
+
+→ pip install requests beautifulsoup4 lxml selenium pandas webdriver-manager undetected-chromedriver
+
+→ python.exe -m pip install --upgrade pip
+
 
 6.Test If Installed Properly:
 
