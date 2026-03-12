@@ -126,3 +126,24 @@ for row in rows:
         key = cols[0].get_text(strip=True)
         value = cols[1].get_text(strip=True)
         print(key, ":", value)
+Subject: 
+Dear Sudha Mam,
+
+I hope you are doing well.
+
+I would like to formally resign from my position as Graduate Apprentice Trainee (Analyst) at AG Resources India Pvt Ltd. I sincerely thank the organization for giving me the opportunity to learn and gain experience during my time here.
+
+Due to a career opportunity that aligns closely with my long-term goals, I have decided to move forward with a different path. As per the company policy, I will serve the required notice period of 30 days. Based on this, my last working day will be [12 April 2026].
+
+If possible, I kindly request consideration for early relieving depending on project requirements. I will ensure proper handover of my responsibilities during the notice period.
+
+Thank you for your guidance and support.
+
+Regards
+Naveenkumar P
+Employee ID: 192223
+
+1️⃣ Send resignation from company email
+2️⃣ CC your personal mail
+3️⃣ Inform manager immediately
+4️⃣ Request early release politely
